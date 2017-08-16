@@ -11,7 +11,7 @@ int main()
         printf("\t\t\t");
         len++,len1 += 2;
         for(j = 0; j < k1; j++){
-            if((i == n - 1 and (j == n or j == k1)) or ( i!= n-1 and (j == len or j == k - len or j == k + len - 2) ) or (j == k1 - len - 2))cout << "V";
+            if((i == n - 1 and (j == n or j == k1)) or ( i!= n-1 and (j == len or j == k - len or j == k + len - 2) ) or (j == k1 - len - 2))cout << "W";
             else printf(" ");
         }
         printf("\n");
